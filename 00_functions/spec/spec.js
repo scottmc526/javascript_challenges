@@ -30,11 +30,11 @@ describe("shout", function() {
 
 describe("whisper", function() {
 
-  xit("returns Hello plus the string you pass it, lower case", function() {
+  it("returns Hello plus the string you pass it, lower case", function() {
     expect(yourCode.whisper('Frog')).toEqual("Hello frog");
   });
 
-  xit("returns Hello plus the string you pass it, lower case", function() {
+  it("returns Hello plus the string you pass it, lower case", function() {
     expect(yourCode.whisper('FoX')).toEqual("Hello fox");
   });
 
