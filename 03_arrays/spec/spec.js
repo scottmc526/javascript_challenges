@@ -71,11 +71,11 @@ describe('drop', function() {
 });
 
 describe('union', function() {
-  xit('returns the union of two arrays provided as arguments', function() {
+  it('returns the union of two arrays provided as arguments', function() {
     expect(yourCode.union([1,2], [3,4,5])).toEqual([1,2,3,4,5]);
   });
 
-  xit('returns an empty array when both arguments are empty arrays', function() {
+  it('returns an empty array when both arguments are empty arrays', function() {
     expect(yourCode.union([], [])).toEqual([]);
   });
 });

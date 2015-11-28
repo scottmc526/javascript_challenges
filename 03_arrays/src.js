@@ -50,7 +50,11 @@ module.exports = {
         return [];
       }
   },
-  union: function(array) {
+  union: function(array1, array2) {
+    var newArray = array1.concat(array2);
+    return newArray;
+  },
+  intersection: function(array1, array2) {
     
   }
 
