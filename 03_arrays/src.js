@@ -55,8 +55,15 @@ module.exports = {
     return newArray;
   },
   intersection: function(array1, array2) {
-    
+    var javaScott = []
+  for (var i = 0; i < array1.length; i++) {
+    for (var b = 0; i < array2.length; b++) {
+    if(array1[i] === array2[b]) {
+      javaScott.push(array2[b])
+    }
+  }}
+
+  return javaScott
+
+    }
   }
-
-
-}
