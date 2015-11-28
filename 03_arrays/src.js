@@ -34,6 +34,16 @@ module.exports = {
     }
   },
   last_n: function(array, n) {
+    if (array.length === 0) {
+      return [];
+    }
+    while (array.length < n) {
+      return array;
+    }
+    array = array.slice(-n);
+    return array;
+  },
+  drop: function(array, n) {
     
   }
 
