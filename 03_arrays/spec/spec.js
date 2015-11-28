@@ -61,11 +61,11 @@ describe('last_n', function() {
 });
 
 describe('drop', function() {
-  xit('returns the elements after n elements have been dropped', function() {
+  it('returns the elements after n elements have been dropped', function() {
     expect(yourCode.drop([1,2,3,4,5,6], 3)).toEqual([4,5,6]);
   });
 
-  xit('returns an empty array if there not enough elements after dropping the n elements', function() {
+  it('returns an empty array if there not enough elements after dropping the n elements', function() {
     expect(yourCode.drop([1,2], 3)).toEqual([]);
   });
 });

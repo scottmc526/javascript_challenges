@@ -44,6 +44,13 @@ module.exports = {
     return array;
   },
   drop: function(array, n) {
+      array = array.slice(n);
+      return array;
+      if (array.slice(n) > array.length) {
+        return [];
+      }
+  },
+  union: function(array) {
     
   }
 
