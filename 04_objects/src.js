@@ -28,4 +28,25 @@ module.exports = {
       return [];
     }
   },
+  sortedKeys: function (obj) {
+    var keys = []
+    for (var key in obj){
+      keys.push(key);
+    }
+    keys.sort();
+    return keys;
+    if (obj === {}){
+      return [];
+    }
+  },
+  reverseSortedKeys: function (obj) {
+    var keys =[];
+    for (var key in obj) {
+      keys.push(key);
+    }
+    keys.sort().reverse()
+    return keys;
+    if (obj === {})
+    return [];
+  },
 }
