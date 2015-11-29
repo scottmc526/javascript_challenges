@@ -8,13 +8,13 @@ module.exports = {
 
   sweetnessProperty: function(obj) {
     return obj.sweetness;
-    if (obj.sweetness == undefined) {
+    if (obj.sweetness == "") {
       return undefined;
     }
   },
   savorynessProperty: function(obj) {
     return obj['savory-ness'];
-    if (obj['savory-ness'] === undefined) {
+    if (obj['savory-ness'] === '') {
       return undefined;
     }
   },

@@ -5,7 +5,11 @@
 module.exports = {
 
   joinWithFor: function(list) {
-    // your code here
-  }
+    var newList = []
+    for (var i = 1; i < list.length; i++) {
+      
+    }
+    return newList;
+  },
 
 }
