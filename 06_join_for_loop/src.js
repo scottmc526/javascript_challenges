@@ -5,11 +5,43 @@
 module.exports = {
 
   joinWithFor: function(list) {
-    var newList = []
-    for (var i = 1; i < list.length; i++) {
-      
+    var str = '';
+    for (var i = 0; i < list.length; i++) {
+      str += list[i];
     }
-    return newList;
+    return str;
   },
+
+  joinWithForAndIndex: function(list) {
+    var str = ''
+    for (var i = 0; i < list.length; i++) {
+      str += list[i] + [i];
+    }
+    return str;
+  },
+  joinWithoutOddCharacters: function(list) {
+    var str = '';
+    for (var i = 0; i < list.length; i++) {
+      if ([i] % 2 === 0) {
+        str += list[i];
+      }
+    }
+    return str;
+    if (list === []) {
+      return '';
+    }
+  },
+  joinWithForAndToken: function(list) {
+    var str = '';
+    for (var i = 0; i < list.length; i++) {
+      str += list[i] + '*';
+    }
+    str = str.slice(0, -1)
+    return str;
+    if (list === []) {
+      return '';
+    }
+  },
+
 
 }
