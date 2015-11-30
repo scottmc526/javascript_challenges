@@ -33,7 +33,7 @@ describe('joinWithForAndToken', function() {
 });
 
 describe('joinWithForAndAlternatingTokens', function() {
-  xit('returns a String with the element of the array joined, alternating between the provided tokens', function() {
+  it('returns a String with the element of the array joined, alternating between the provided tokens', function() {
     expect(yourCode.joinWithForAndAlternatingTokens([1,2,3,4,5], '*', '+')).toEqual('1*2+3*4+5')
   });
 

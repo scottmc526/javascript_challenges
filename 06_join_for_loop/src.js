@@ -42,6 +42,14 @@ module.exports = {
       return '';
     }
   },
+  joinWithForAndAlternatingTokens: function(list) {
+    list = list.splice(0, 4, 1, '*', 2, '+', 3, '*', 4, '+', 5);
+    var str = ''
+    for (var i = 0; i < list.length; i++) {
+      str += list[i];
+    }
+    return str;
+  }
 
 
 }
