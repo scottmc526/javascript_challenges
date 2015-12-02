@@ -16,7 +16,7 @@ describe('simpeCall', function() {
 
 describe('each', function() {
 
-  xit('calls the function passed to it once for every item in the array', function() {
+  it('calls the function passed to it once for every item in the array', function() {
     var items = ['a', 'k', 'z'];
     var rand = (new Date()).getMilliseconds();
     var result = [rand];
@@ -32,7 +32,7 @@ describe('each', function() {
 
 describe('map', function() {
 
-  xit('calls the function passed to it once for every item in the array and returns an array with the results', function() {
+  it('calls the function passed to it once for every item in the array and returns an array with the results', function() {
     var rand = (new Date()).getMilliseconds();
     var items = [rand, 1,2,3];
 
