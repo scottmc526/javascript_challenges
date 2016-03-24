@@ -43,12 +43,22 @@ module.exports = {
     }
   },
   joinWithForAndAlternatingTokens: function(list) {
-    list = list.splice(0, 4, 1, '*', 2, '+', 3, '*', 4, '+', 5);
-    var str = ''
+    var str = '';
     for (var i = 0; i < list.length; i++) {
-      str += list[i];
+      if(list[i] === list.length){
+        str += list.length;
+      }
+       else if(list[i] % 2 !== 0){
+        str += list[i] + '*'
+      } else if (list[i] % 2 === 0) {
+        str += list[i] + '+'
+      }
+      else {
+        str = ''
+      }
     }
     return str;
+
   }
 
 

@@ -37,7 +37,7 @@ describe('joinWithForAndAlternatingTokens', function() {
     expect(yourCode.joinWithForAndAlternatingTokens([1,2,3,4,5], '*', '+')).toEqual('1*2+3*4+5')
   });
 
-  xit('returns an empty String for an empty array', function() {
+  it('returns an empty String for an empty array', function() {
     expect(yourCode.joinWithForAndAlternatingTokens([], '*')).toEqual('');
   });
 });
