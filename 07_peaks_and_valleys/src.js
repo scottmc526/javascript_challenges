@@ -24,5 +24,13 @@ module.exports = {
       output += this.peak();
     }
     return output;
+  },
+
+  valleys: function(number) {
+    var output = '';
+    for (var i = 0; i < number; i++) {
+      output += this.valley();
+    }
+    return output;
   }
 }

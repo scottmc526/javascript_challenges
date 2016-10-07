@@ -19,7 +19,7 @@ describe('peaks', function() {
 });
 
 describe('valleys', function() {
-  xit('returns the number of valleys provided as an argument', function() {
+  it('returns the number of valleys provided as an argument', function() {
     expect(yourCode.valleys(2)).toEqual('______');
   });
 });
