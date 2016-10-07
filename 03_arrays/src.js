@@ -23,6 +23,7 @@ module.exports = {
       return array;
     }
   },
+
   last_n: function(array, n) {
     if (array.length === 0) {
       return [];
@@ -33,6 +34,7 @@ module.exports = {
     array = array.slice(-n);
     return array;
   },
+
   drop: function(array, n) {
       array = array.slice(n);
       return array;
@@ -40,10 +42,12 @@ module.exports = {
         return [];
       }
   },
+
   union: function(array1, array2) {
     var newArray = array1.concat(array2);
     return newArray;
   },
+
   intersection: function(array1, array2) {
     var javaScott = []
     for (var i = 0; i < array1.length; i++) {
