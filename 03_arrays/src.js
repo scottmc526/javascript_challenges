@@ -9,11 +9,7 @@ module.exports = {
   },
 
   empty: function(array) {
-    if (array.length === 0){
-      return true;
-    } else {
-      return false;
-    }
+    return array.length === 0;
   },
 
   first_n: function(array, n) {
