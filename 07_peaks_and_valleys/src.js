@@ -9,10 +9,20 @@
 */
 
 module.exports = {
+
   peak: function() {
     return '/\\';
   },
+
   valley: function() {
     return '___'
+  },
+
+  peaks: function(number) {
+    var output = '';
+    for (var i = 0; i < number; i++) {
+      output += this.peak();
+    }
+    return output;
   }
 }
