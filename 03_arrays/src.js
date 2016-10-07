@@ -5,10 +5,7 @@ module.exports = {
   },
 
   last: function (array) {
-    return array[array.length - 1];
-    if (array === []) {
-      return undefined;
-    }
+    return array.length > 0 ? array[array.length - 1] : undefined;
   },
 
   empty: function(array) {
