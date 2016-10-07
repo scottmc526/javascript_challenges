@@ -25,14 +25,14 @@ describe('valleys', function() {
 });
 
 describe('peaksAndValleys', function() {
-  xit('returns the number of peaks and valleys provided as arguments', function() {
+  it('returns the number of peaks and valleys provided as arguments', function() {
     expect(yourCode.peaksAndValleys(2,1)).toEqual('/\\/\\___');
 
   });
 
   // Once you're done uncomment these 4-lines:
-  // console.log("\n");
-  // console.log('Nice job! Now enjoy some mountains:')
-  // console.log(yourCode.peaksAndValleys(2,1) + yourCode.peaksAndValleys(3,1) + yourCode.peaksAndValleys(1,0));
-  // console.log("\n");
+  console.log("\n");
+  console.log('Nice job! Now enjoy some mountains:')
+  console.log(yourCode.peaksAndValleys(2,1) + yourCode.peaksAndValleys(3,1) + yourCode.peaksAndValleys(1,0));
+  console.log("\n");
 });

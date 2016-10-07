@@ -32,5 +32,16 @@ module.exports = {
       output += this.valley();
     }
     return output;
+  },
+
+  peaksAndValleys: function(peak, valley) {
+    var output = '';
+    for (var i = 0; i < peak; i++) {
+      output += this.peak();
+    }
+    for (var i = 0; i < valley; i++) {
+      output+= this.valley();
+    }
+    return output;
   }
 }
