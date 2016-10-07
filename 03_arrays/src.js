@@ -1,10 +1,7 @@
 module.exports = {
 
   first: function(array) {
-    return array[0];
-    if (array === []) {
-      return undefined;
-    }
+    return array.length > 0 ? array[0] : undefined;
   },
 
   last: function (array) {
@@ -64,5 +61,5 @@ module.exports = {
       }
     }
     return javaScott
-  }
+  },
 }
