@@ -15,7 +15,11 @@ module.exports = {
 
   whisper: function(string) {
     return "Hello " +string.toLowerCase();
-  }
+  },
 
-  
+  separate: function(string) {
+    return string.split('');
+  },
+
+
 }

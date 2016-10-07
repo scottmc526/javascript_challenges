@@ -42,11 +42,11 @@ describe("whisper", function() {
 
 describe("separate", function() {
 
-  xit("returns the characters of the given word as an array", function() {
+  it("returns the characters of the given word as an array", function() {
     expect(yourCode.separate('jumbo')).toEqual(['j', 'u', 'm', 'b', 'o']);
   });
 
-  xit("returns the characters of the given word as an array", function() {
+  it("returns the characters of the given word as an array", function() {
     expect(yourCode.separate('foobar')).toEqual(['f', 'o', 'o', 'b', 'a', 'r']);
   });
 
