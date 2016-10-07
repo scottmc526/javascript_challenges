@@ -54,11 +54,11 @@ describe("separate", function() {
 
 describe("reverseJoin", function() {
 
-  xit("returns the characters of the given array, reversed and joined", function() {
+  it("returns the characters of the given array, reversed and joined", function() {
     expect(yourCode.reverseJoin(['j', 'u', 'm', 'b', 'o'])).toEqual('o,b,m,u,j');
   });
 
-  xit("returns the characters of the given array, reversed and joined", function() {
+  it("returns the characters of the given array, reversed and joined", function() {
     expect(yourCode.reverseJoin(['f', 'o', 'o', 'b', 'a', 'r'])).toEqual('r,a,b,o,o,f');
   });
 

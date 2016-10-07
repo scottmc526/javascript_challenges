@@ -21,5 +21,8 @@ module.exports = {
     return string.split('');
   },
 
+  reverseJoin: function(array) {
+    return array.reverse().join(',');
+  }
 
 }
