@@ -4,13 +4,9 @@ module.exports = {
     return string1.length === string2.length;
   },
 
-    firstGreater: function(string1, string2) {
-      if (string1 > string2) {
-        return true;
-      } if (string1 <= string2) {
-        return false;
-      }
-    },
+  firstGreater: function(string1, string2) {
+    return string1 > string2;
+  },
 
     firstGreaterOrEqualTo: function(string1, string2) {
       if (string1 >= string2) {
