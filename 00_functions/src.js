@@ -23,6 +23,10 @@ module.exports = {
 
   reverseJoin: function(array) {
     return array.reverse().join(',');
+  },
+
+  reverseJoinCompact: function(array) {
+    return array.reverse().join('')
   }
 
 }

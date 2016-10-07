@@ -66,11 +66,11 @@ describe("reverseJoin", function() {
 
 describe("reverseJoinCompact", function() {
 
-  xit("returns the characters of the given array, reversed and joined by nothing", function() {
+  it("returns the characters of the given array, reversed and joined by nothing", function() {
     expect(yourCode.reverseJoinCompact(['j', 'u', 'm', 'b', 'o'])).toEqual('obmuj');
   });
 
-  xit("returns the characters of the given array, reversed and joined by nothing", function() {
+  it("returns the characters of the given array, reversed and joined by nothing", function() {
     expect(yourCode.reverseJoinCompact(['f', 'o', 'o', 'b', 'a', 'r'])).toEqual('raboof');
   });
 
