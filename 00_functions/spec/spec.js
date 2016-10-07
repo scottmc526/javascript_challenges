@@ -78,11 +78,11 @@ describe("reverseJoinCompact", function() {
 
 describe("backwardsDay", function() {
 
-  xit("returns Hello plus the string you pass it, reversed", function() {
+  it("returns Hello plus the string you pass it, reversed", function() {
     expect(yourCode.backwardsDay('Frog')).toEqual("Hello gorF");
   });
 
-  xit("returns Hello plus the string you pass it, reversed", function() {
+  it("returns Hello plus the string you pass it, reversed", function() {
     expect(yourCode.backwardsDay('FraggleRock')).toEqual("Hello kcoRelggarF");
   });
 
